@@ -3,7 +3,7 @@ const WEB_WORKER_URL = 'scripts/worker.js';
 const BLURBS = {
   'start': {
     header: 'Get Ready',
-    blurb: '-Rip brain'
+    blurb: '-Pinch the screen | Bot Check'
   },
   'p1-turn': {
     header: 'Your Turn',
