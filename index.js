@@ -5,7 +5,7 @@ function PopUp() {
 
 
 // constants
-const WEB_WORKER_URL = 'scripts/worker.js';
+const WEB_WORKER_URL = 'worker.js';
 const BLURBS = {
   'start': {
     header: 'Get Ready',
