@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home </title>
+    
+      <!--  Styles  -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Doppio+One" rel="stylesheet">
+      <link rel="stylesheet" href="styles/index.processed.css">
+</head>
+
+<body>
+  <div class="page">
+    <h1>AI WINS YOU LOOSE GAME</h1>
+    <div class="panel info">
+      <h2></h2>
+      <div class="blurb"></div>
+      <div class="outlook"></div>
+    </div>
+     <div class="panel dif">
+       <h2>P.S:</h2>
+       <h2 id="pstxt"></h2>
+       <div class="dif-options">
+         <div>
+           <h2 id="highs">Objective: Win level 5</h2>
+         </div>
+       </div>
+       <div class="start">
+         <button id="myButton" class="float-left submit-button" >START GAME</button>
+       </div>
+       
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "index.html";
+    };
+</script>
+
+     </div>
+     <div id='scrolly'>
+       <img src='first.jpg'></img>
+       <img src='2nd.jpg'></img>
+       <img src='3rd.jpg'></img>
+       <img src='4th.jpg'></img>
+       <img src='5th.jpg'></img>
+     </div>
+  </div>
+  <style type="text/css">
+    #scrolly {
+      width: 1000px;
+      height: 490px;
+      overflow: auto;
+      overflow-y: hidden;
+      margin: 0 auto;
+      white-space: nowrap;
+      background: #4337372B;
+      border-radius: 10px;
+    }
+  
+    img{
+      width: 300px;
+      height: 450px;
+      margin: 20px 10px;
+      display: inline;
+      border-radius: 10px; 
+    }
+    h1,h2{
+      text-align: center
+    }
+    h2{
+      font-family: Arial, Helvetica, sans-serif;
+      font-family:  'Courier New', Courier, monospace, cursive;
+      font-size: 30px;
+    }
+  </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="scripts/2ndex.js"></script>
+</body>
+
+</html>
