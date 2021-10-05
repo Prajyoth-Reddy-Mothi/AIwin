@@ -174,6 +174,7 @@ function endComputerTurn(coords, isWin, winningChips, isBoardFull, isWinImminent
     dropCursorChip(coords.row, function() {
       if (isWin) {
         endGame('p2-win', winningChips);
+        location.reload()
       } else if (isBoardFull) {
         endGame('tie');
       } else {
